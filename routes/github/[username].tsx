@@ -32,10 +32,10 @@ export default function Page({ data }: PageProps<User | null>) {
     }
 
     return (
-        <div>
+        <div class="container mx-auto m-1 p-2 rounded shadow bg-gradient-to-r from-blue-300 via-indigo-600 to-purple-900 font-mono text-white tracking-tight">
             <img src={data.avatar_url} />
             <h1>{data.name}</h1>
-            <p>{data.login}</p>
+            <p>@{data.login}</p>
         </div>
     );
 }
