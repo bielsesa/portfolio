@@ -1,5 +1,5 @@
 # Portfolio
- Portfolio made in Fresh
+ Portfolio made with Fresh and Tailwind CSS
  
 ### Usage
 
