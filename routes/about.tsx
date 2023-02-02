@@ -1,7 +1,9 @@
 import { Handlers } from "$fresh/server.ts";
 import Header from "../islands/Header.tsx";
+import Footer from "../islands/Footer.tsx";
 import NavMenu from "../islands/NavMenu.tsx";
 import ContactForm from "../islands/ContactForm.tsx";
+import { Link } from "../components/Link.tsx";
 
 export const handler: Handlers = {
   async GET(req, ctx) {
@@ -35,12 +37,11 @@ export default function AboutPage() {
         </p>
         <p class="py-2">
           I am attending
-          <a
-            class="transition ease-in-out duration-500 hover:underline hover:text-indigo-500 px-1"
-            href="https://www.cevbarcelona.com/formacion-a-distancia/cfgs-en-animaciones-3d-juegos-y-entornos-interactivos-a-distancia/"
-          >
-            CEV - Centre de Comucació, Imatge i So.
-          </a>
+          <Link
+            extraStyles="transition ease-in-out duration-500 hover:underline hover:text-indigo-500 px-1"
+            url="https://www.cevbarcelona.com/formacion-a-distancia/cfgs-en-animaciones-3d-juegos-y-entornos-interactivos-a-distancia/"
+            title="CEV - Centre de Comucació, Imatge i So."
+          />
         </p>
         <p class="py-3">
           I speak Spanish and Catalan natively, have an upper-intermediate level
@@ -64,6 +65,7 @@ export default function AboutPage() {
         </div>
         {/* <ContactForm /> */}
       </div>
+      <Footer />
     </>
   );
 }

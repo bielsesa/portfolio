@@ -1,4 +1,5 @@
 import Header from "../islands/Header.tsx";
+import Footer from "../islands/Footer.tsx";
 import NavMenu from "../islands/NavMenu.tsx";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         </p>
         <p class="font-semibold py-4">Thank you for your patience!</p>
       </div>
+      <Footer />
     </>
   );
 }
