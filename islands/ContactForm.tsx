@@ -4,7 +4,7 @@ export default function ContactForm() {
             <h2 class="m-3">Contact Form</h2>
             <form>
                 <input type="text" class="shadow-lg rounded-sm m-3"></input>
-                <button type="submit" class="bg-indigo-500 text-white shadow rounded m-3 p-1 hover:bg-gradient-to-r hover:from-indigo-500 hover:to-yellow-500">Submit</button>
+                <button type="submit" class="transition ease-in-out duration-700 bg-indigo-500 text-white shadow rounded m-3 p-1 hover:bg-yellow-600 transform hover:-translate-y-1 hover:scale-110">Submit</button>
             </form>
         </div>
     );
