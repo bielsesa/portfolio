@@ -17,9 +17,10 @@ export default function AboutPage() {
         <>
             <Header />
             <NavMenu />
-            <h1>About</h1>
-            <p>this is the about page.</p>
-            <ContactForm />
+            <div class="p-4 mx-auto max-w-screen-md">
+                <p>Yada yada</p>
+                <ContactForm />
+            </div>
         </>  
     );
 }
