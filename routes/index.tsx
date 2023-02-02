@@ -1,12 +1,12 @@
-import { Head } from "$fresh/runtime.ts";
 import Counter from "../islands/Counter.tsx";
+import Header from "../islands/Header.tsx";
+import NavMenu from "../islands/NavMenu.tsx";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Fresh App</title>
-      </Head>
+      <Header />
+      <NavMenu />
       <div class="p-4 mx-auto max-w-screen-md">
         <img
           src="/logo.svg"

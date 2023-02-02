@@ -1,4 +1,7 @@
 import { Handlers } from "$fresh/server.ts";
+import Header from "../islands/Header.tsx";
+import NavMenu from "../islands/NavMenu.tsx";
+import ContactForm from "../islands/ContactForm.tsx";
 
 export const handler: Handlers = {
     async GET(req, ctx) {
@@ -11,9 +14,12 @@ export const handler: Handlers = {
 // this is ctx.render
 export default function AboutPage() {
     return (
-        <main>
+        <>
+            <Header />
+            <NavMenu />
             <h1>About</h1>
             <p>this is the about page.</p>
-        </main>  
+            <ContactForm />
+        </>  
     );
 }
