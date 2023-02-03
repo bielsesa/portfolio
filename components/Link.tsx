@@ -6,7 +6,7 @@ interface LinkProps {
 
 export function Link(props: LinkProps) {
   const classString =
-    `transition ease-in-out duration-500 hover:underline hover:text-indigo-500 px-1 ${
+    `transition ease-in-out duration-500 hover:underline hover:text-indigo-500 ${
       props.extraStyles ?? ""
     }`;
   return (

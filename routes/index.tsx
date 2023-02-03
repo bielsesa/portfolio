@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Header />
       <NavMenu />
-      <div class="p-4 mx-auto max-w-screen-md">
+      <div class="p-4 mx-auto max-w-screen-lg">
         <p class="py-5 font-semibold">Welcome to my personal page!</p>
         <p>⚠ This is still a work in progress. ⚠</p>
         <p class="pt-2">

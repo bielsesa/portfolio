@@ -19,15 +19,15 @@ export default function AboutPage() {
     <>
       <Header />
       <NavMenu />
-      <div class="p-4 mx-auto max-w-screen-md">
+      <div class="p-4 mx-auto max-w-screen-lg">
         <p class="py-5 font-semibold">
           Hi! My name is Biel, and I am currently working as a software
           developer in Barcelona, Spain.
         </p>
         <p class="py-3">
-          I am non-binary, and use both
-          <span class="text-indigo-500 px-1">they/them</span>
-          and<span class="text-indigo-500 px-1">he/him</span>
+          I am non-binary, and use both{" "}
+          <span class="text-indigo-500">they/them</span>
+          {" "}and{" "}<span class="text-indigo-500">he/him</span>{" "}
           pronouns (masculine pronouns mainly in Spanish).
         </p>
         <p class="py-2">
@@ -36,9 +36,9 @@ export default function AboutPage() {
           game developer must do in their day to day work.
         </p>
         <p class="py-2">
-          I am attending
+          I am attending{" "}
           <Link
-            extraStyles="transition ease-in-out duration-500 hover:underline hover:text-indigo-500 px-1"
+            extraStyles="transition ease-in-out duration-500 hover:underline hover:text-indigo-500 sm:text-indigo-500 sm:underline"
             url="https://www.cevbarcelona.com/formacion-a-distancia/cfgs-en-animaciones-3d-juegos-y-entornos-interactivos-a-distancia/"
             title="CEV - Centre de Comucació, Imatge i So."
           />
