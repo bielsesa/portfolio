@@ -10,7 +10,6 @@ export default function PortfolioPage() {
       <NavMenu />
       <div class="p-4 mx-auto max-w-screen-lg">
         <p class="pb-2">Here you can see some of my personal projects.</p>
-        <p class="pb-2 font-semibold">⚠ Currently, this page is NOT responsive in mobile devices! Sorry, working on it! ⚠ </p>
         <div class="grid grid-flow-row p-1 mx-auto max-w-screen-md">
           <PortfolioItem
             title="Shooter 2D Unity demo"
