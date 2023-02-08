@@ -10,7 +10,7 @@ export default function PortfolioPage() {
       <NavMenu />
       <div class="p-4 mx-auto max-w-screen-lg">
         <p class="pb-2">Here you can see some of my personal projects.</p>
-        <div class="grid grid-flow-row p-1 mx-auto max-w-screen-md">
+        <div class="grid grid-flow-row p-1 mx-auto max-w-screen-md space-y-2 sm:space-y-3">
           <PortfolioItem
             title="Shooter 2D Unity demo"
             url="https://astronautpotato.itch.io/shooter-2d-demo"
