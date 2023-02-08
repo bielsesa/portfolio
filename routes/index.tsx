@@ -1,7 +1,6 @@
 import Header from "../islands/Header.tsx";
 import Footer from "../islands/Footer.tsx";
 import NavMenu from "../islands/NavMenu.tsx";
-import PageNotResponsiveWarning from "../components/PageNotResponsiveWarning.tsx";
 import Warning from "../components/Warning.tsx";
 
 export default function Home() {
