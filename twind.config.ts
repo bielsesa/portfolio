@@ -6,7 +6,6 @@ export default {
     extend: {
       colors: {
         oysterpink: {
-          // light colors are reversed!!
           '50': '#faf7f7',
           '100': '#f6efef',
           '200': '#eedfdf',
