@@ -10,13 +10,14 @@ import * as $3 from "./routes/api/random-uuid.ts";
 import * as $4 from "./routes/github/[username].tsx";
 import * as $5 from "./routes/index.tsx";
 import * as $6 from "./routes/portfolio.tsx";
-import * as $$0 from "./islands/ArtPortfolio.tsx";
-import * as $$1 from "./islands/ContactForm.tsx";
-import * as $$2 from "./islands/Counter.tsx";
-import * as $$3 from "./islands/Footer.tsx";
-import * as $$4 from "./islands/GameDevPortfolio.tsx";
-import * as $$5 from "./islands/Header.tsx";
-import * as $$6 from "./islands/NavMenu.tsx";
+import * as $$0 from "./islands/ContactForm.tsx";
+import * as $$1 from "./islands/Counter.tsx";
+import * as $$2 from "./islands/Footer.tsx";
+import * as $$3 from "./islands/Header.tsx";
+import * as $$4 from "./islands/NavMenu.tsx";
+import * as $$5 from "./islands/PortfolioArt.tsx";
+import * as $$6 from "./islands/PortfolioDev.tsx";
+import * as $$7 from "./islands/PortfolioGameDev.tsx";
 
 const manifest = {
   routes: {
@@ -29,13 +30,14 @@ const manifest = {
     "./routes/portfolio.tsx": $6,
   },
   islands: {
-    "./islands/ArtPortfolio.tsx": $$0,
-    "./islands/ContactForm.tsx": $$1,
-    "./islands/Counter.tsx": $$2,
-    "./islands/Footer.tsx": $$3,
-    "./islands/GameDevPortfolio.tsx": $$4,
-    "./islands/Header.tsx": $$5,
-    "./islands/NavMenu.tsx": $$6,
+    "./islands/ContactForm.tsx": $$0,
+    "./islands/Counter.tsx": $$1,
+    "./islands/Footer.tsx": $$2,
+    "./islands/Header.tsx": $$3,
+    "./islands/NavMenu.tsx": $$4,
+    "./islands/PortfolioArt.tsx": $$5,
+    "./islands/PortfolioDev.tsx": $$6,
+    "./islands/PortfolioGameDev.tsx": $$7,
   },
   baseUrl: import.meta.url,
   config,
