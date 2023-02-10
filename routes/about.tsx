@@ -21,14 +21,14 @@ export default function AboutPage() {
       <NavMenu />
       <div class="p-4 mx-auto max-w-screen-lg">
         <p class="py-5 font-semibold">
-          Hi! My name is Biel, and I am currently working as a software
+          Hi! My name is Biel (pronounced bee-el), and I am currently working as a software
           developer in Barcelona, Spain.
         </p>
         <p class="py-3">
           I am non-binary, and use both{" "}
           <span class="text-indigo-500">they/them</span>
           {" "}and{" "}<span class="text-indigo-500">he/him</span>{" "}
-          pronouns (masculine pronouns mainly in Spanish).
+          pronouns (I prefer masculine pronouns mainly when being referred to in Spanish).
         </p>
         <p class="py-2">
           My true wish is to work as a game developer. Alongside my job, I am
