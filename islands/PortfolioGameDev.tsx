@@ -3,6 +3,7 @@ import PortfolioContainer from "../components/PortfolioContainer.tsx";
 
 export default function PortfolioGameDev() {
   const projects: Project[] = BuildProjects();
+  // console.log(projects);
   return (
     <PortfolioContainer
       title="Game Development"
@@ -13,8 +14,8 @@ export default function PortfolioGameDev() {
 
 function BuildProjects() : Project[] {
   const projects: Project[] = [];
-  const project = new Project("", "");
 
+  let project = new Project("", "");
   project.title = "Shooter 2D Unity demo";
   project.url = "https://astronautpotato.itch.io/shooter-2d-demo";
   project.description = "A small demo of a 2d shooter, created in Unity, for a class project.";
@@ -23,6 +24,7 @@ function BuildProjects() : Project[] {
 
   projects.push(project);
 
+  project = new Project("", "");
   project.title = "Medical Showdown";
   project.url = "https://astronautpotato.itch.io/medical-showdown";
   project.description = "A demo of a 2D platform shooter where you have to destroy viruses. Inspired by MegaMan games.";
@@ -31,6 +33,7 @@ function BuildProjects() : Project[] {
 
   projects.push(project);
 
+  project = new Project("", "");
   project.title = "Come Back Next Week";
   project.url = "https://globalgamejam.org/2020/games/come-next-week-5";
   project.description = "Game created for the Global Game Jam 2020, where you are a therapist and have to explore your patient's troubled mind, using puzzles you need to solve with cards.";
