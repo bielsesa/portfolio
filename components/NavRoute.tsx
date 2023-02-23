@@ -1,3 +1,6 @@
+/* https://www.w3schools.com/howto/howto_js_dropdown.asp */
+/* https://www.freecodecamp.org/news/how-to-build-a-dropdown-menu-with-javascript/ */
+
 interface NavRouteProps {
   title: string;
   url: string;
