@@ -2,7 +2,6 @@ import Header from "../islands/Header.tsx";
 import Footer from "../islands/Footer.tsx";
 import NavMenu from "../islands/NavMenu.tsx";
 import PortfolioGameDev from "../islands/PortfolioGameDev.tsx";
-import data from "../data/data.json" assert { type: "json" };
 
 export default function PortfolioPage() {
   return (
